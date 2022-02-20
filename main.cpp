@@ -10,7 +10,7 @@
 
 #include "mbed.h"
  
-//led colours    R      G      B
+//led colours    R      B      G
 BusOut RGB_LED(PA_15, PA_14, PA_13); //define output bus pins 
 
 void init_led();
